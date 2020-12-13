@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title> Contact me</title>
+  </head>
+  <body>
+    <h1>Contact me!</h1>
+    <form action="mailto:marion.claireaux@gmail.com" method="post" enctype="text/plain">
+<!--Defines a form that will send plain text to marion.claireaux-->
+<table>
+  <tr>
+    <td><label>Your Name:</label></td>
+    <td><input type="text" name="yourName" value=""></td>
+  </tr>
+  <tr>
+    <td><label>Your Mail:</label></td>
+    <td>  <input type="email" name="yourMail" value=""></td>
+  </tr>
+
+</table>
+
+      <label>Your Message:</label> <br>
+<textarea name="yourMessage" rows="8" cols="30"></textarea>
+<br>
+      <input type="submit" name="">
+      <!--Adding name attributes to inputs make them show in the mail
+    e.g.
+  yourName=Angela
+yourMail=mail@mail.com
+yourMessage = message -->
+
+    </form>
+  </body>
+</html>
